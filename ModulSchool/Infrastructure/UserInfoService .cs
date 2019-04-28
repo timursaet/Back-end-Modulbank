@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 using ModulSchool.Models;
 using ModulSchool.Services;
 
-namespace ModulSchool.Services
+namespace ModulSchool.Infrastructure
 {
     public class UserInfoService : IUserInfoService
     {
