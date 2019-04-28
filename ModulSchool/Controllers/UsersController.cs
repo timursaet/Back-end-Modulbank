@@ -23,5 +23,6 @@ namespace ModulSchool.Controllers
             return _getUsersInfoRequestHandler.Handle(id);
         }
     }
+    
 
 }
