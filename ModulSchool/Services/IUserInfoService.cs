@@ -8,7 +8,7 @@ namespace ModulSchool.Services
     {
         Task<User> GetById(Guid id);
     }
-    public async void AppendUser(User user)
+ /*   public async void AppendUser(User user)
     {
     using (var connection = new NpgsqlConnection(ConnectionString))
     {
@@ -16,5 +16,5 @@ namespace ModulSchool.Services
     
     await connection.QuerySingleAsync<User>(query, user);
     }
-}
+}*/
 }
